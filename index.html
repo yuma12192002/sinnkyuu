@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoltiloChibaスペシャルサイト</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <!-- ヘッダーロゴ -->
+        <a class="top" href="index.html"><img class="logo" src="img/logo_wahs (1).png"></a>
+        <!-- ハンバーガーメニュー部分 -->
+        <div class="nav">     
+          <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+          <input id="drawer_input" class="drawer_hidden" type="checkbox">
+          <!-- ハンバーガーアイコン -->
+          <label for="drawer_input" class="drawer_open"><span></span></label>
+          <!-- メニュー -->
+          <nav class="nav_content">
+            <ul class="nav_list">
+                <li class="menu_li">
+                    <a class="nav_item" href="#jump_practice">練習環境</a>
+                </li>
+                <li class="menu_li">
+                    <a class="nav_item" href="#jump_staff">スタッフ</a>
+                </li>
+                <li class="menu_li">
+                    <a class="nav_item" href="#jump_OB">OB紹介</a>
+                </li>
+                <li class="menu_li">
+                    <a class="nav_item" href="#jump_ryou">寮について</a>
+                </li>
+                <li class="menu_li">
+                    <a class="nav_item" href="#jump_selection">セレクション</a>
+                </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="kv_wrap">
+        <img class="kv_soccer" src="img/サッカー_kv.png">
+        <img class="lose slideContsL slideConts" src="img/誰にも負けない.png">
+        <img class="ace slideContsL slideConts delay-time02" src="img/エース.png">
+        <img class="grow slideContsL slideConts delay-time04" src="img/を育てる.png">
+      </div>
+      <a class="scroll" href="#">Scroll</a>
+    <section class="soltilo_about">
+        <p class="soltilo_txt" id="jump_soltilo">soltilochibaは世界に羽ばたくエースを育てるというモットーで本田圭佑選手によってプロデュースされたサッカーチームです。
+        誰にも負けないという強い気持ちを持った選手を育てています。</p>
+        <img class="team_logo" src="img/soltilochiba_logo.png">
+    </section>
+    <section>
+        <h1 class="ttl" id="jump_practice">練習環境</h1>
+    <img class="ground_img" src="img/ground.png" alt="天然芝のグラウンドの画像">
+    <p class="ground_txt">SoltiloChibaは専用の天然芝のグラウンドで練習できる絶好の練習環境が整っています。
+        105m×68mをフルコートで使った、本番と同じ環境での練習や、コートを半分に分けて少年用コート2面として練習するなど様々な練習ができます。</p>
+    </section>
+    <section>
+        <h1 class="ttl staff_ttl" id="jump_staff">スタッフ</h1>
+        <article class="people_introduction">
+            <div class="name honda">
+                <p class="name_first">Kesuke</p>
+                <p class="name_last">Honda</p>
+            </div>
+            
+            <p class="job" id="honda_job">プロデューサー</p>
+            <p class="j_name">本田 圭佑</p>
+            <img class="people_img" src="img/img_honda_透過.png" alt="本田圭佑画像">
+            <p class="people_txt">世界に羽ばたき、世界に認められるエースのような存在となるプロデュースしている本田圭佑の想いが
+                「World Ace Honda Soltilo」WAHSの理念となっています。</p>
+        </article>
+        <article class="people_introduction">
+            <div class="name">
+                <p class="name_first">Yuji</p>
+                <p class="name_last">Hashimoto</p>
+            </div>
+            <p class="job" id="hashimoto_job">監督</p>
+            <p class="j_name" id="hashimoto_name">橋本 雄二</p>
+            <img class="people_img" id="hashimoto_img" src="img/橋本監督透過.png" alt="橋本監督画像">
+            <p class="people_txt">スポーツマンシップを忘れずに、それでも相手選手はもちろんライバルや仲間にも負けないという競争心を持って、
+                お互いに高めあっていく関係を作ってほしい。</p>
+        </article>
+        <article class="people_introduction">
+            <div class="name">
+                <p class="name_first">Jin</p>
+                <p class="name_last">Asano</p>                
+            </div>
+            <p class="job" id="asano_job">コーチ</p>
+            <p class="j_name" id="asano_name">浅野 仁</p>
+            <img class="people_img" id="asano_img" src="img/浅野コーチ_透過.png" alt="浅野ヘッドコーチ画像">
+            <p class="people_txt">サッカーがうまくなるだけではなく、人として成長してほしい。大学生になって、
+                大人になったときに立派になったなと自信をもって送り出せる選手に思えるようになってほしい。</p>
+        </article>
+    </section>
+    <section>
+        <h1 class="ttl" id="jump_OB">OB</h1>
+        <article class="people_introduction">
+            <div class="name tsubasa">
+                <p class="name_first">Tsubasa</p>
+                <p class="name_last">Aoki</p>
+            </div>
+            <p class="job" id="aoki_job" >流通経済大学</p>
+            <p class="j_name">青木 翼</p>
+            <img class="people_img" id="aoki_img" src="img/青木翼_透過.png" alt="青木翼画像">
+            <p class="people_txt">この３年間が人生において大きな変化をもたらした３年間でした。２年生の時に、
+            橋本監督に出会い沢山の事を教えていただきました。SOLTILO CHIBA FCはサッカーだけでなく
+            人間的に大きく成長できる場所です。本気でサッカー選手を目指しているならSOLTILOCHIBAに入る事をオススメします。
+            ぜひ自分の手で夢を掴んでください!</p>
+        </article>
+        <article class="people_introduction">
+            <div class="name">
+                <p class="name_first">Yuma</p>
+                <p class="name_last">Moriyama</p>
+            </div>
+            <p class="job" id="moriyama_job">流通経済大学</p>
+            <p class="j_name">森山 悠真</p>
+            <img class="people_img" id="moriyama_img" src="img/森山悠真_透過.png" alt="森山悠真画像">
+            <p class="people_txt">強いチームではなくても人間性を高めプロという夢に近づける
+                ということに気付かされました。自分を成長させるのは、環境ではなく自分自身だということを教えられました。</p>
+        </article>
+    </section>
+    <section>
+        <h1 class="ttl" id="jump_ryou">寮</h1>
+        <ul class="slick01">
+            <li><img class="ele" src="img/選手部屋.png" alt="選手の部屋の画像"></li>
+            <li><img class="ele" src="img/寮_外観.png" alt="寮の外観"></li>
+            <li><img class="ele" src="img/寮からの景色.png" alt="寮からの景色。海やグラウンドが見える"></li>
+          </ul>
+        <p class="ryou_txt">SoltiloChibaは地方から来た選手も全力でサッカーができるように選手寮を完備しています。
+        寮では食事での栄養サポートなど選手を側面からサポートしています。また、選手寮にはスタッフが常駐して
+        選手のメンタルサポートなども行っておりますので、プロになりたい方はSoltiloChibaにお越しください。</p>
+    </section>
+    <section class="day">
+        <h1 class="ttl">寮生の一日</h1>
+        <img class="vertical_axis" src="img/縦軸.png">
+        <article class="schedule">
+            <p class="time">6:45</p>
+            <p class="schedule_ttl">朝食</p>
+            <img id="breakfirst_img" class="day_img" src="img/朝食.jpg" alt="朝食の画像">
+            <p class="schedule_txt">朝食はご飯とパンがでます。選手の体つくりや健康を意識したメニューが食べられています。</p>
+            <p class="time_2">8:30~16:00</p>
+            <p class="schedule_ttl" id="schedule_ttl_2">学校</p>
+            <p class="schedule_txt" id="schedule_txt_2">学校へは寮から寮生の友達と一緒に登校することが多いです。</p>
+            <p class="time_3">17:00</p>
+            <p class="schedule_ttl" id="schedule_ttl_3">練習開始</p>
+            <img class="day_img" id="practice_img" src="img/練習風景.jpg" alt="練習の様子">
+            <p class="schedule_txt" id="schedule_txt_3">毎週月曜から日曜まで火曜日以外は練習しています。試合形式の実践に近い練習をしています。</p>
+            <p class="time_4">20:00</p>
+            <p class="schedule_ttl" id="schedule_ttl_4">帰宅</p>
+            <p class="schedule_txt" id="schedule_txt_4">練習が終わり、帰宅します。寮は練習場から徒歩5分なので、とても近く移動も簡単です。</p>
+            <p class="time_5">20:30</p>
+            <p class="schedule_ttl" id="schedule_ttl_5">夕食</p>
+            <img id="curry_img" class="day_img" src="img/夕食.jpg" alt="夕食の画像">
+            <p class="schedule_txt" id="schedule_txt_5">夕食は20時と20時30分に分かれて食べます。一番人気なメニューはカレーライスです。</p>
+            <p class="time_6">22:30</p>
+            <p class="schedule_ttl" id="schedule_ttl_6">就寝</p>
+            <p class="schedule_txt" id="schedule_txt_6">夕食を食べて軽いストレッチや筋トレを行った後、ベッドに入り1日が終わりとなります。</p>
+        </article>
+    </section>
+    <section>
+        <h1 class="ttl">寮生へインタビュー</h1>
+        <p class="QA">Q.寮へ入ってよかったことは？</p>
+        <p class="QA">A.スタッフの方も寮に住んでいるので、サッカーのことで気になったことや悩んでいることをすぐに質問や相談ができることです</p>
+    </section>
+    <section>
+        <h1 class="ttl" id="jump_selection">セレクション</h1>
+        <p class="selection_txt">Soltilo Chibaは本気でプロを目指す夢ある選手を募集します。世界で活躍する選手になりたい方は下のボタンからセレクション情報を確認してください。</p>
+        <a class="selection_btn" href="https://soltilo-fc.com/soltilo-chiba-fc/selection_info">セレクションはこちら</a>
+    </section>
+    <footer>
+        <a href="https://wahs.jp/"><img class="logo" id="footer_logo" src="img/logo_wahs (1).png" alt="wahs公式サイトはこちらのボタンから"></a>
+        <ul class="footer">
+            <li class="link"><a id="chiba" href="https://soltilo-fc.com/soltilo-chiba-fc/">SoltiloChiba</a></li>
+            <li class="link"><a id="tokyo" href="https://soltilo-fc.com/soltilo-tokyo-fc/">SoltiloTokyo</a></li>
+            <li class="link"><a id="seiryo" href="https://soltilo-fc.com/soltilo-seiryo-fc/">SoltiloSeiryo</a></li>
+            <li class="link"><a id="osaka" href="https://soltilo-fc.com/soltilo-osaka-fc/">SoltiloOsaka</a></li>
+        </ul>
+            <p class="copy">🄫WAHS</p>
+    </footer>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

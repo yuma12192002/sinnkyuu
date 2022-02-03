@@ -1,0 +1,636 @@
+/*ロゴ*/
+.logo{
+    width: 75px;
+}
+
+.top{
+    height: 24.75px;
+}
+
+html{
+    overflow: auto;
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+    background-color: #2D2D2D;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: Noto Sans JP;
+    color: #fff;
+    margin: 0;
+}
+
+/*キービジュアル*/
+.kv_wrap{
+    margin-bottom: -365px;
+}
+
+.kv_soccer{
+    width: 100%;
+    background-color: #46005C;
+    position: relative;
+    top: 30px;
+    padding-bottom: 100%;
+}
+
+.ace{
+    width: 220px;
+    position: relative;
+    bottom: 505px;
+    left: 125px;
+    margin: 40px auto;
+}
+
+.lose{
+    width: 240px;
+    height: 76px;
+    position: relative;
+    bottom: 420px;
+    left: 60px;
+    margin: 40px auto;
+}
+
+.grow{
+    width: 165px;
+    position: relative;
+    bottom: 614px;
+    left: 260px;
+    margin: 40px auto;
+}
+
+.scroll {
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    bottom: -40px;
+    z-index: 2;
+    padding: 10px 10px 110px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    writing-mode: vertical-lr;
+  }
+  .scroll::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    height: 100px;
+    background: #fff;
+  }
+
+#wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+ .slideConts {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+  }
+
+  .slideContsL {
+    transform: translate(-450px, 0);
+    
+  }
+
+  .slideContsL.show {
+    transform: translate(-50px, 0) !important;
+  }
+
+  .delay-time02{
+    animation-delay: 0.2s;
+    }
+    
+    .delay-time04{
+    animation-delay: 0.4s;
+    }
+
+/*ソルティーロ千葉について*/
+.soltilo_txt{
+    background: rgba(255,36,36,0.8);
+    width: 300px;
+    padding: 20px;
+    margin: 0;
+    z-index: 60;
+    text-align: left;
+    position: relative;
+}
+.soltilo_about{
+    position: relative;
+}
+.team_logo{
+    width: 263px;
+    position: absolute;
+    top: 25px;
+    left: 90px;
+    z-index: 1;
+}
+
+/*見出し*/
+.ttl{
+    font-size: 20px;
+    color: black;
+    width: 190px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -20px;
+    position: relative;
+    z-index: 60;
+}
+
+/*練習環境*/
+.ground_img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    max-width: 540px;
+    max-height: 670px;
+}
+
+.ground_txt{
+    background-color: rgba(41,40,40,0.9);
+    position: relative;
+    top: 180px;
+    left: 20px;
+    z-index: 60;
+    width: 75%;
+    margin-bottom: 50px;
+    padding-left: 12px;
+}
+
+/*スタッフ*/
+.staff_ttl{
+    margin-top: 250px;
+}
+
+.name{
+    text-align: center;
+    background-color: #F20000;
+    width: 100%;
+    height: 260px;
+}
+
+.name_first{
+    font-family: Robot;
+    font-size: 50px;
+    font-weight: bold;
+    color: #F20000;
+    -webkit-text-stroke: 1px #FFF;
+    font-style: italic;
+    position: relative;
+    top: 70px;
+}
+
+.name_last{
+    font-family: Robot;
+    font-size: 50px;
+    font-weight: bold;
+    color: #F20000;
+    -webkit-text-stroke: 1px #FFF;
+    font-style: italic;
+    position: relative;
+    top: 70px;
+}
+
+.honda{
+    position: relative;
+    top: -60px;
+}
+
+.job{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-bottom: 1px solid;
+    width: 175px;
+    height: 61px;
+    text-align: center;
+}
+
+.j_name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+#honda_job{
+    margin-top: -10px;
+}
+
+#hashimoto_job{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    border: none;
+    margin: 0;
+    text-align: center;
+}
+
+#asano_job{
+    width: 90px;
+    position: relative;
+    left: 30px;
+    text-align: center;
+}
+
+#asano_name{
+    text-align: center;
+    width: 120px;
+    margin: 0;
+    position: relative;
+    left: 45px;
+    bottom: 10px;
+}
+
+#hashimoto_name{
+    width: 120px;
+    border-top: 1px solid;
+    text-align: center;
+}
+
+.people_introduction{
+    position: relative;
+}
+
+.people_img{
+    position: absolute;
+    top: 100px;
+    right: -40px;
+    width: 240px;
+}
+
+#hashimoto_img{
+    top: 113px;
+    width: 220px;
+    object-fit: cover;
+}
+
+#asano_img{
+    top: 160px;
+}
+
+#aoki_img{
+    width: 220px;
+}
+
+#aoki_job{
+    width: 160px;
+}
+
+#moriyama_img{
+    width: 220px;
+    position: absolute;
+    top: 160px;
+}
+
+#moriyama_job{
+    width: 160px;
+}
+
+.people_txt{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+/*OB*/
+.tsubasa{
+    position: relative;
+    top: -60px;
+}
+
+/*寮*/
+.ryou_txt{
+    width: 75%;
+    position: relative;
+    left: 45px;
+}
+
+/*寮生の一日*/
+.day{
+    position: relative;
+}
+.schedule{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.time{
+    position: relative;
+    top: 18px;
+    width: 50px;
+}
+
+.time_2{
+    position: relative;
+    bottom: 25px;
+}
+
+.time_3{
+    position: relative;
+    bottom: 113px;
+}
+
+.time_4{
+    position: relative;
+    bottom: 210px;
+}
+
+.time_5{
+    position: relative;
+    bottom: 297px;
+}
+
+.time_6{
+    position: relative;
+    bottom: 358px;
+}
+
+.schedule_ttl{
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+}
+
+#schedule_ttl_2{
+    left: 100px;
+    bottom: 83px;
+}
+
+#schedule_ttl_3{
+    bottom: 172px;
+}
+
+#schedule_ttl_4{
+    bottom: 268px;
+}
+
+#schedule_ttl_5{
+    bottom: 355px;
+}
+
+#schedule_ttl_6{
+    bottom: 416px;
+}
+
+.schedule_txt{
+    position: relative;
+    bottom: 30px;
+    line-height: 2.5;
+    width: 75%;
+    font-size: 15px;
+}
+
+#schedule_txt_2{
+    bottom: 105px;
+}
+
+#schedule_txt_3{
+    bottom: 214px;
+}
+
+#schedule_txt_4{
+    bottom: 281px;
+}
+
+#schedule_txt_5{
+    bottom: 376px;
+}
+
+#schedule_txt_6{
+    bottom: 433px;
+}
+
+#breakfirst_img{
+    width: 217px;
+    position: relative;
+    bottom: 30px;
+}
+
+#practice_img{
+    width: 217px;
+    position: relative;
+    bottom: 188px;
+}
+
+#curry_img{
+    position: relative;
+    bottom: 365px;
+    width: 217px;
+}
+
+.vertical_axis{
+    position: relative;
+    top: 70px;
+    left: 10px;
+}
+
+/*インタビュー*/
+.QA{
+    width: 75%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+/*セレクション*/
+.selection_txt{
+    width: 75%;
+    margin-top: 40px;
+    margin-left: 42px;
+}
+
+.selection_btn{
+    width: 190px;
+    padding: 10px;
+    background-color: #FF2300;
+    display: block;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/*フッター*/
+footer{
+    background-color: #fff;
+    height: 355px;
+}
+
+.footer{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+    position: relative;
+    top: 50px;
+}
+
+.copy{
+    text-align: center;
+    color: #707070;
+    list-style-type: none;
+    position: relative;
+    top: 50px;
+}
+
+.link{
+    color: #707070;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+}
+
+.link>a{
+    text-decoration: none;
+    color: #707070;
+}
+
+#footer_logo{
+    display: block;
+    color: #707070;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+}
+
+/*スライド*/
+.ele{
+    width: 100%;
+    margin: 0;
+}
+
+.slick01{
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+}
+
+/*ハンバーガーメニュー*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+  }
+    
+  /* チェックボックスを非表示にする */
+  .drawer_hidden {
+    display: none;
+  }
+  
+  /* ハンバーガーアイコンの設置スペース */
+  .drawer_open {
+    display: flex;
+    height: 60px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;/* 重なり順を一番上にする */
+    cursor: pointer;
+  }
+  
+  /* ハンバーガーメニューのアイコン */
+  .drawer_open span,
+  .drawer_open span:before,
+  .drawer_open span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background: #333;
+    transition: 0.5s;
+    position: absolute;
+  }
+  
+  /* 三本線の一番上の棒の位置調整 */
+  .drawer_open span:before {
+    bottom: 8px;
+  }
+  
+  /* 三本線の一番下の棒の位置調整 */
+  .drawer_open span:after {
+    top: 8px;
+  }
+  
+  /* アイコンがクリックされたら真ん中の線を透明にする */
+  #drawer_input:checked ~ .drawer_open span {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+  #drawer_input:checked ~ .drawer_open span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+    
+  #drawer_input:checked ~ .drawer_open span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+    
+  /* メニューのデザイン*/
+  .nav_content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 100%; /* メニューを画面の外に飛ばす */
+    z-index: 99;
+    background: linear-gradient(#BC1D29,#6c008d);
+    transition: 0.5s;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .nav_item{
+      text-decoration: none;
+      color: #fff;
+      position: relative;
+      top: 25px;
+  }
+
+  .menu_li{
+      text-align: center;
+      margin-top: 40px;
+      width: 100%;
+      height: 13%;
+  }
+  /* メニュー黒ポチを消す */
+  .nav_list {
+    list-style: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* アイコンがクリックされたらメニューを表示 */
+  #drawer_input:checked ~ .nav_content {
+    left: 0;/* メニューを画面に入れる */
+  }
